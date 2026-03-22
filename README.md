@@ -1,3 +1,5 @@
+#### Dataset Sourced and Objective
+The dataset is sourced from comments in Wikipedia's talk page edits.The objective of this model is to classify the comments into different types of toxicity like threats, obscenity, insult and identity-based hate.
 ####  Model Architecture
 Base Model: bert-base-uncased (Hugging Face Transformers)
 Classification Head: A linear layer with 6 output nodes using a Sigmoid activation function for multi-label classification.
